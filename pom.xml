@@ -24,21 +24,25 @@
     </properties>
 
     <dependencies>
+        <!-- web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <!-- eureka -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+
         <!-- 在xml中使用<if condition>的时候用到的jar包 -->
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>janino</artifactId>
             <version>${janino.version}</version>
         </dependency>
+
         <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -46,6 +50,7 @@
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <dependencyManagement>
